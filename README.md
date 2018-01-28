@@ -42,6 +42,9 @@ ROADMAP
 
 <h2 id="OMF">OMF Control Mangement Framework</h2>
 <h2 id="REF">REFERENCES</h2>
+
 * https://www.gnuradio.org
+
 * http://web.nitlab.inf.uth.gr/fibre/index.php/cmf/omf
+
 * http://www.sigops.org/sosp/sosp09/papers/roads09_3_rakotoarivelo.pdf
