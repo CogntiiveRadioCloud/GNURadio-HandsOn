@@ -17,6 +17,7 @@ Ensure you are in the source directory, and run the following commands:
     $ cd build
     $ cmake ../ && make test
     $ make install 
+    $ sudo ldconfig
 
 
 
