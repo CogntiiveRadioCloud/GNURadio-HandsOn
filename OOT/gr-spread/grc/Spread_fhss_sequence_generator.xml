@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<block>
+  <name>fhss_sequence_generator</name>
+  <key>Spread_fhss_sequence_generator</key>
+  <category>Spread</category>
+  <import>import Spread</import>
+  <make>Spread.fhss_sequence_generator($seed, $chan_spacing, $nchans)</make>
+  <param>
+    <name>Seed</name>
+    <key>seed</key>
+    <value>0</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Chan Spacing</name>
+    <key>chan_spacing</key>
+    <value>1</value>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>Num Chans</name>
+    <key>nchans</key>
+    <value>8</value>
+    <type>int</type>
+  </param>
+
+  <sink>
+    <name>trig</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+
+  <source>
+    <name>seq</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>
